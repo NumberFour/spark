@@ -141,6 +141,13 @@
     <MaxPermGen>512m</MaxPermGen>
   </properties>
 
+  <distributionManagement>
+     <snapshotRepository>
+        <id>snapshots</id>
+        <url>http://repoberlin.corp.numberfour.eu/nexus/content/repositories/snapshots</url>
+     </snapshotRepository>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
